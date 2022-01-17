@@ -1,0 +1,96 @@
+
+.restaurant {
+  max-width: 1px;
+  margin: 0 auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.0em;
+}
+.wifi {
+  color: #f00;
+  margin: 0 auto;
+  text-align: center;  
+}
+
+.menu {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.menu-group-heading {
+  margin: 0;
+  padding-bottom: 0em;
+  border-bottom: 2px solid #ccc;
+  color : rgba(134, 5, 35, 0.507);
+  justify-content: space-between;
+  display: flex;
+}
+
+.menu-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.7em 0;
+}
+
+.menu-item {
+  display: flex;
+}
+
+.menu-item-text {
+  flex-grow: 1;
+}
+
+
+.menu-item-name2 {
+  color : #f00;
+  font-size : 14px;
+  margin-left : 10px;
+  font-weight: normal;
+}
+
+.menu-item-price2 {
+  color : #f00;
+  font-size : 14px;
+  font-weight: normal;
+    margin-right: 2.0em;
+}
+
+.menu-item-text {
+  flex-grow: 1;
+}
+
+.menu-item-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.menu-item-name {
+  margin-right: 1.5em;
+  font-weight: normal;
+}
+.menu-item-price {
+  margin-right: 1.5em;
+  font-weight: normal;
+}
+
+
+@media screen and (min-width: 992px) {
+  .menu {
+    font-size: 16px;
+  }
+
+  .menu-group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+

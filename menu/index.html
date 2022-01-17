@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body onload="renderMenu()">
+
+    <img src="logo.png" alt="Archeo-Cafe" class="center" width="250" height="156">
+ 
+
+  <div class="container">
+    <div class="menu" id="target">
+    </div>
+  </div>
+  <div class="wifi">Wifi Name : Archeo-Cafe</div>
+  <div class="wifi">Password : Archeo34</div>
+
+  <script id="menuTemplate" type="x-tmpl-mustache"> 
+    {{#menus}}
+          <h2 class="menu-group-heading">
+        {{name}}
+      </h2>
+      <div class="menu-group">
+        
+        {{#items}}
+        <div class="menu-item">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+
+
+            <span class="menu-item-name">{{name}}</span>
+            <span class="menu-item-price">{{price}}</span>
+            
+            </h3>
+            
+          </div>
+        </div>
+        {{/items}}
+
+        {{#additionalItem}}
+        <div class="menu-item">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-name2">{{name}}</span>
+              <span class="menu-item-price2">{{price}}</span>
+            </h3>
+          </div>
+        </div>
+        {{/additionalItem}}
+
+      </div>
+  {{/menus}}
+    
+  </script>
+  <script src="https://unpkg.com/mustache@latest"></script>
+  <script src="script.js"></script>
+</body>
+</html>

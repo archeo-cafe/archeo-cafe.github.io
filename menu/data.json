@@ -1,0 +1,339 @@
+{
+    "menus": [
+        {
+            "name": "STANDART KAHVELER",
+            "items": [
+                {
+                    "name": "Filtre Kahve",
+                    "price": 13,
+                    "isJames": true
+                },
+                {
+                    "name": "Espresso",
+                    "price": 13,
+                    "isJames": false
+                },
+                {
+                    "name": "Double Espresso",
+                    "price": 15
+                },
+                {
+                    "name": "Americano",
+                    "price": 15
+                },
+                {
+                    "name": "Macchiato",
+                    "price": 15
+                },
+                {
+                    "name": "Cortado",
+                    "price": 16
+                },
+                {
+                    "name": "Flat White",
+                    "price": 17
+                },
+                {
+                    "name": "Latte",
+                    "price": 17
+                },
+                {
+                    "name": "Latte Karamel",
+                    "price": 18
+                },
+                {
+                    "name": "Latte Fındık",
+                    "price": 18
+                },
+                {
+                    "name": "Latte Vanilya",
+                    "price": 18
+                },
+                {
+                    "name": "Latte Çikolata",
+                    "price": 18
+                },
+                {
+                    "name": "Cappuccino",
+                    "price": 17
+                }
+                ,
+                {
+                    "name": "White Chocolate Mocha",
+                    "price": 20
+                }
+                ,
+                {
+                    "name": "Dark Chocolate Mocha",
+                    "price": 20
+                }
+                ,
+                {
+                    "name": "Red Eye",
+                    "price": 20
+                }
+                ,
+                {
+                    "name": "V60 - (Brezilya/Kolombiya)",
+                    "price": 22
+                }
+            ],
+            "additionalItem": [
+                {
+                    "name": "+Soya Sütü",
+                    "price": 4
+                }
+            ]
+        },
+        {
+            "name": "TÜRK KAHVELERİ",
+            "items": [
+                {
+                    "name": "Türk Kahvesi",
+                    "price": 10
+                },
+                {
+                    "name": "Damla Sakızlı Türk Kahvesi",
+                    "price": 12
+                },
+                {
+                    "name": "Dibek Kahvesi",
+                    "price": 12
+                }
+            ]
+        },
+        {
+            "name": "ÇAY",
+            "items": [
+                {
+                    "name": "Çay",
+                    "price": 5
+                },
+                {
+                    "name": "XL Çay",
+                    "price": 8
+                },
+                {
+                    "name": "Yeşil Çay - Demleme",
+                    "price": 12
+                },
+                {
+                    "name": "Nane Limon - Demleme",
+                    "price": 12
+                },
+                {
+                    "name": "Relax Çay - Demleme",
+                    "price": 12
+                },
+                {
+                    "name": "Kış Çayı - Demleme",
+                    "price": 12
+                },
+                {
+                    "name": "Orman Meyveli Çay - Demleme",
+                    "price": 12
+                },
+                {
+                    "name": "Ihlamur - Demleme",
+                    "price": 14
+                }
+            ]
+        },
+        {
+            "name": "SICAK İÇECEKLER",
+            "items": [
+                {
+                    "name": "Sahlep",
+                    "price": 15
+                },
+                {
+                    "name": "Sıcak Çikolata",
+                    "price": 15
+                }
+            ]
+        },
+        {
+            "name": "SANDVİÇ",
+            "items": [
+                {
+                    "name": "Ayçekirdekli Ekmeğe - Beyaz Peynirli",
+                    "price": 16
+                },
+                {
+                    "name": "Dört Peynirli",
+                    "price": 16
+                },
+                {
+                    "name": "Cheddar Peynirli Hindi Fümeli",
+                    "price": 18
+                },
+                {
+                    "name": "Köri Soslu Tavuklu",
+                    "price": 18
+                },
+                {
+                    "name": "Kekikli Ekmeğe - Izgara Tavuklu",
+                    "price": 18
+                }
+            ]
+        },
+        {
+            "name": "BUZLU KAHVELER",
+            "items": [
+                {
+                    "name": "Ice Filtre Kahve",
+                    "price": 13
+                },
+                {
+                    "name": "Ice Americano",
+                    "price": 15
+                },
+                {
+                    "name": "Ice Latte",
+                    "price": 18
+                },
+                {
+                    "name": "Ice Latte Karamel",
+                    "price": 20
+                },
+                {
+                    "name": "Ice Latte Fındık",
+                    "price": 20
+                },
+                {
+                    "name": "Ice Latte Vanilya",
+                    "price": 20
+                },
+                {
+                    "name": "Ice Latte Çikolata",
+                    "price": 20
+                },
+                {
+                    "name": "Ice Moccha",
+                    "price": 20
+                },
+                {
+                    "name": "Ice White Choccolate Mocha",
+                    "price": 20
+                }
+            ],
+            "additionalItem": [
+                {
+                    "name": "+Soya Sütü",
+                    "price": 4
+                }
+            ]
+        },
+        {
+            "name": "MILKSHAKE",
+            "items": [
+                {
+                    "name": "Milkshake Çilek",
+                    "price": 18
+                },
+                {
+                    "name": "Milkshake Vanilya",
+                    "price": 18
+                },
+                {
+                    "name": "Milkshake Çikolata",
+                    "price": 18
+                },
+                {
+                    "name": "Milkshake Karamel",
+                    "price": 18
+                },
+                {
+                    "name": "Milkshake Muz",
+                    "price": 18
+                }
+            ]
+        },
+        {
+            "name": "SOĞUK İÇECEKLER",
+            "items": [
+                {
+                    "name": "Su",
+                    "price": 5
+                },
+                {
+                    "name": "Soda",
+                    "price": 8
+                },
+                {
+                    "name": "Pellegrino",
+                    "price": 15
+                },
+                {
+                    "name": "Schweppes Mandalina",
+                    "price": 10
+                },
+                {
+                    "name": "Beyoğlu Gazozu (Sade/Zencefil)",
+                    "price": 10
+                },
+                {
+                    "name": "Coca Cola",
+                    "price": 10
+                },
+                {
+                    "name": "Cappy Meyve Suyu (Portakal / Vişne)",
+                    "price": 10
+                },
+                {
+                    "name": "Churchill",
+                    "price": 12
+                },
+                {
+                    "name": "Ice Tea - Şeftali (Ev Yapımı)",
+                    "price": 15
+                },
+                {
+                    "name": "Ice Tea - Limon (Ev Yapımı)",
+                    "price": 15
+                },
+                {
+                    "name": "Ice Tea - Orman Meyveli (Ev Yapımı)",
+                    "price": 15
+                },
+                {
+                    "name": "Ice Tea - Çilek (Ev Yapımı)",
+                    "price": 15
+                }
+            ]
+        },
+        {
+            "name": "TATLI",
+            "items": [
+                {
+                    "name": "Dilim Kek",
+                    "price": 13
+                },
+                {
+                    "name": "Brownie",
+                    "price": 15
+                },
+                {
+                    "name": "Elmalı Pay",
+                    "price": 15
+                },
+                {
+                    "name": "Çikolata Rüyası",
+                    "price": 15
+                },
+                {
+                    "name": "Cheesecake Frambuazlı/Limonlu",
+                    "price": 17
+                },
+                {
+                    "name": "Mor Velvet Pasta",
+                    "price": 17
+                },
+                {
+                    "name": "Vegan Pasta - Kakaolu",
+                    "price": 20
+                }
+            ]
+        }
+    ]
+}
