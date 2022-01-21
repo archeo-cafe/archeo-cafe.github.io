@@ -14,11 +14,6 @@
   margin: 0 auto;
   padding: 1.0em;
 }
-.wifi {
-  color: #f00;
-  margin: 0 auto;
-  text-align: center;  
-}
 
 .menu {
   font-family: "Inter", sans-serif;
@@ -52,16 +47,16 @@
 
 .menu-item-name2 {
   color : #f00;
-  font-size : 14px;
+  font-size : 15px;
   margin-left : 10px;
   font-weight: normal;
 }
 
 .menu-item-price2 {
   color : #f00;
-  font-size : 14px;
+  font-size : 15px;
   font-weight: normal;
-    margin-right: 2.0em;
+  margin-right: 2.0em;
 }
 
 .menu-item-text {
@@ -83,6 +78,17 @@
   font-weight: normal;
 }
 
+
+.topnav a {
+  float: right;
+  color: rgba(134, 5, 35, 0.507);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font : normal
+}
 
 @media screen and (min-width: 992px) {
   .menu {

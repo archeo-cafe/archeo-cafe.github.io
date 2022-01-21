@@ -5,14 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restaurant Menu</title>
+  <title>Archeo Cafe</title>
   <link href="style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-<body onload="renderMenu()">
+<body onload="changeLanguage()">
+  <div class="topnav">
+    <a href="javascript:changeLanguage()" id="preferredLanguage">EN</a>
+  </div>
 
+ 
     <img src="logo.png" alt="Archeo-Cafe" class="center" width="250" height="156">
  
 
@@ -20,8 +24,6 @@
     <div class="menu" id="target">
     </div>
   </div>
-  <div class="wifi">Wifi Name : Archeo-Cafe</div>
-  <div class="wifi">Password : Archeo34</div>
 
   <script id="menuTemplate" type="x-tmpl-mustache"> 
     {{#menus}}
@@ -34,13 +36,9 @@
         <div class="menu-item">
           <div class="menu-item-text">
             <h3 class="menu-item-heading">
-
-
             <span class="menu-item-name">{{name}}</span>
-            <span class="menu-item-price">{{price}}</span>
-            
+            <span class="menu-item-price">{{price}} ₺</span>
             </h3>
-            
           </div>
         </div>
         {{/items}}
@@ -50,7 +48,7 @@
           <div class="menu-item-text">
             <h3 class="menu-item-heading">
               <span class="menu-item-name2">{{name}}</span>
-              <span class="menu-item-price2">{{price}}</span>
+              <span class="menu-item-price2">{{price}} ₺</span>
             </h3>
           </div>
         </div>

@@ -1,10 +1,10 @@
 {
     "menus": [
         {
-            "name": "STANDART KAHVELER",
+            "name": "STANDARD COFFEES",
             "items": [
                 {
-                    "name": "Filtre Kahve",
+                    "name": "Filter Coffee",
                     "price": 13,
                     "isJames": true
                 },
@@ -38,19 +38,19 @@
                     "price": 17
                 },
                 {
-                    "name": "Latte Karamel",
+                    "name": "Latte Caramel",
                     "price": 18
                 },
                 {
-                    "name": "Latte Fındık",
+                    "name": "Latte Hazelnut",
                     "price": 18
                 },
                 {
-                    "name": "Latte Vanilya",
+                    "name": "Latte Vanilla",
                     "price": 18
                 },
                 {
-                    "name": "Latte Çikolata",
+                    "name": "Latte Chocolate",
                     "price": 18
                 },
                 {
@@ -74,118 +74,118 @@
                 }
                 ,
                 {
-                    "name": "V60 - (Brezilya/Kolombiya)",
+                    "name": "V60 - (Brazil/Colombia)",
                     "price": 22
                 }
             ],
             "additionalItem": [
                 {
-                    "name": "+Soya Sütü",
+                    "name": "+Soy Milk",
                     "price": 4
                 }
             ]
         },
         {
-            "name": "TÜRK KAHVELERİ",
+            "name": "TURKISH COFFEES",
             "items": [
                 {
-                    "name": "Türk Kahvesi",
+                    "name": "Turkish Coffee",
                     "price": 10
                 },
                 {
-                    "name": "Damla Sakızlı Türk Kahvesi",
+                    "name": "Mastic Gum Flavor Turkish Coffee",
                     "price": 12
                 },
                 {
-                    "name": "Dibek Kahvesi",
+                    "name": "Special Dibek Turkish Coffee",
                     "price": 12
                 }
             ]
         },
         {
-            "name": "ÇAY",
+            "name": "TEA",
             "items": [
                 {
-                    "name": "Çay",
+                    "name": "Tea",
                     "price": 5
                 },
                 {
-                    "name": "XL Çay",
+                    "name": "XL Tea",
                     "price": 8
                 },
                 {
-                    "name": "Elma Çayı - Demleme",
+                    "name": "Apple Tea",
                     "price": 12
                 },
                 {
-                    "name": "Yeşil Çay - Demleme",
+                    "name": "Green Tea",
                     "price": 12
                 },
                 {
-                    "name": "Nane Limon - Demleme",
+                    "name": "Mint Lemon",
                     "price": 12
                 },
                 {
-                    "name": "Relax Çay - Demleme",
+                    "name": "Relax Tea",
                     "price": 12
                 },
                 {
-                    "name": "Kış Çayı - Demleme",
+                    "name": "Winter Tea",
                     "price": 12
                 },
                 {
-                    "name": "Orman Meyveli Çay - Demleme",
+                    "name": "Wildberry Tea",
                     "price": 12
                 },
                 {
-                    "name": "Ihlamur - Demleme",
+                    "name": "Lime Tea",
                     "price": 14
                 }
             ]
         },
         {
-            "name": "SICAK İÇECEKLER",
+            "name": "HOT DRINKS",
             "items": [
                 {
                     "name": "Sahlep",
                     "price": 15
                 },
                 {
-                    "name": "Sıcak Çikolata",
+                    "name": "Hot Chocolate",
                     "price": 15
                 }
             ]
         },
         {
-            "name": "SANDVİÇ",
+            "name": "SANDWICHES",
             "items": [
                 {
-                    "name": "Ayçekirdekli Ekmeğe - Beyaz Peynirli",
+                    "name": "Sunflower Seed Bread - White Cheese",
                     "price": 16
                 },
                 {
-                    "name": "Dört Peynirli",
+                    "name": "Four Cheese",
                     "price": 16
                 },
                 {
-                    "name": "Cheddar Peynirli Hindi Fümeli",
+                    "name": "Cheddar Cheese With Turkey Fume",
                     "price": 18
                 },
                 {
-                    "name": "Köri Soslu Tavuklu",
+                    "name": "Curry Powder Chicken",
                     "price": 18
                 },
                 {
-                    "name": "Kekikli Ekmeğe - Izgara Tavuklu",
+                    "name": "Thyme Bread - Grilled Chicken",
                     "price": 18
                 }
             ]
         },
         {
-            "name": "BUZLU KAHVELER",
+            "name": "ICED COFFEE",
             "items": [
                 {
-                    "name": "Ice Filtre Kahve",
+                    "name": "Ice Filter Coffee",
                     "price": 13
                 },
                 {
@@ -197,19 +197,19 @@
                     "price": 18
                 },
                 {
-                    "name": "Ice Latte Karamel",
+                    "name": "Ice Latte Caramel",
                     "price": 20
                 },
                 {
-                    "name": "Ice Latte Fındık",
+                    "name": "Ice Latte Hazelnut",
                     "price": 20
                 },
                 {
-                    "name": "Ice Latte Vanilya",
+                    "name": "Ice Latte Vanilla",
                     "price": 20
                 },
                 {
-                    "name": "Ice Latte Çikolata",
+                    "name": "Ice Latte Chocolate",
                     "price": 20
                 },
                 {
@@ -223,7 +223,7 @@
             ],
             "additionalItem": [
                 {
-                    "name": "+Soya Sütü",
+                    "name": "+Soy Milk",
                     "price": 4
                 }
             ]
@@ -232,36 +232,36 @@
             "name": "MILKSHAKE",
             "items": [
                 {
-                    "name": "Milkshake Çilek",
+                    "name": "Milkshake Strawberry",
                     "price": 18
                 },
                 {
-                    "name": "Milkshake Vanilya",
+                    "name": "Milkshake Vanilla",
                     "price": 18
                 },
                 {
-                    "name": "Milkshake Çikolata",
+                    "name": "Milkshake Chocolate",
                     "price": 18
                 },
                 {
-                    "name": "Milkshake Karamel",
+                    "name": "Milkshake Caramel",
                     "price": 18
                 },
                 {
-                    "name": "Milkshake Muz",
+                    "name": "Milkshake Banana",
                     "price": 18
                 }
             ]
         },
         {
-            "name": "SOĞUK İÇECEKLER",
+            "name": "COLD DRINKS",
             "items": [
                 {
-                    "name": "Su",
+                    "name": "Water",
                     "price": 5
                 },
                 {
-                    "name": "Soda",
+                    "name": "Mineral Water",
                     "price": 8
                 },
                 {
@@ -269,11 +269,11 @@
                     "price": 15
                 },
                 {
-                    "name": "Schweppes Mandalina",
+                    "name": "Schweppes Mandarin",
                     "price": 10
                 },
                 {
-                    "name": "Beyoğlu Gazozu (Sade/Zencefil)",
+                    "name": "Beyoğlu Fizzy Drink (Plain/Ginger)",
                     "price": 10
                 },
                 {
@@ -281,7 +281,7 @@
                     "price": 10
                 },
                 {
-                    "name": "Cappy Meyve Suyu (Portakal / Vişne)",
+                    "name": "Cappy Juice (Orange / Cherry)",
                     "price": 10
                 },
                 {
@@ -289,28 +289,28 @@
                     "price": 12
                 },
                 {
-                    "name": "Ice Tea - Şeftali (Ev Yapımı)",
+                    "name": "Ice Tea - Homemade - Peach",
                     "price": 15
                 },
                 {
-                    "name": "Ice Tea - Limon (Ev Yapımı)",
+                    "name": "Ice Tea - Homemade - Lemon",
                     "price": 15
                 },
                 {
-                    "name": "Ice Tea - Orman Meyveli (Ev Yapımı)",
+                    "name": "Ice Tea - Homemade - Wildberry",
                     "price": 15
                 },
                 {
-                    "name": "Ice Tea - Çilek (Ev Yapımı)",
+                    "name": "Ice Tea - Homemade - Strawberry",
                     "price": 15
                 }
             ]
         },
         {
-            "name": "TATLI",
+            "name": "DESSERTS",
             "items": [
                 {
-                    "name": "Dilim Kek",
+                    "name": "Slice Cake",
                     "price": 13
                 },
                 {
@@ -318,23 +318,23 @@
                     "price": 15
                 },
                 {
-                    "name": "Elmalı Pay",
+                    "name": "Apple Pie",
                     "price": 15
                 },
                 {
-                    "name": "Çikolata Rüyası",
+                    "name": "Chocolate Dream",
                     "price": 15
                 },
                 {
-                    "name": "Cheesecake Frambuazlı/Limonlu",
+                    "name": "Cheesecake (Raspberry/Lemon)",
                     "price": 17
                 },
                 {
-                    "name": "Mor Velvet Pasta",
+                    "name": "Purple Velvet Cake",
                     "price": 17
                 },
                 {
-                    "name": "Vegan Pasta - Kakaolu",
+                    "name": "Vegan Cake With Cacao",
                     "price": 20
                 }
             ]

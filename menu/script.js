@@ -1,5 +1,6 @@
-function renderMenu() {
-  getJSON('/menu/data.json', function(err, data) {
+function renderMenu(jsonAddress) {
+ 
+  getJSON(jsonAddress, function(err, data) {
     if (err !== null) {
       //alert('Something went wrong: ' + err);
     } else {
@@ -23,4 +24,16 @@ function getJSON(url, callback) {
     }
   };
   xhr.send();
+};
+
+function changeLanguage() {
+  var jsonAddress = '/menu/data_en.json';
+  var oldLanguage = document.getElementById('preferredLanguage').innerHTML;
+  var newLanguage = 'TR'
+  if (oldLanguage == 'TR'){
+    newLanguage = 'EN'
+    jsonAddress = '/menu/data.json';
+  } 
+  document.getElementById('preferredLanguage').innerHTML = newLanguage;
+  renderMenu(jsonAddress)
 };
